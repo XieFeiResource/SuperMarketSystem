@@ -10,6 +10,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
@@ -79,6 +80,7 @@ public class Addgoodframe extends JFrame {
 					fileName = file.getSelectedFile().getAbsolutePath();
 					JOptionPane.showConfirmDialog(null, fileName, "选择的文件", JOptionPane.YES_OPTION);// 显示一个confirm的窗口
 					System.out.println(fileName);
+					lblNewLabel.setIcon(new ImageIcon(fileName));
 				}
 			}
 		});
