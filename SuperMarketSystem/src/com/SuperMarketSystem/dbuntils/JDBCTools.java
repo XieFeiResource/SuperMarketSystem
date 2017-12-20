@@ -12,7 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import org.junit.jupiter.api.Test;
 
 public class JDBCTools {
 
